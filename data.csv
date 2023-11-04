@@ -1,0 +1,318 @@
+Age,Weight (in kg),Height (in cm),Location,Blood Group,Disease,Stage,Cancer,Gender,Center
+21,65,175,Delhi,O+,Fever,0,0,Male,1
+30,72,180,Delhi,B+,Mouth Cancer,2,1,Male,2
+15,47,163,Noida,O+,Cold,0,0,Female,1
+42,85,178,Faridabad,AB+,Skin Cancer,1,1,Female,2
+22,75,180,Gaziabad,O+,Motions,0,0,Female,3
+25,82,183,Gaziabad,AB+,Fever,0,0,Male,3
+29,72,175,Noida,B+,Nausea,0,0,Male,3
+32,91,184,Noida,O+,Lung Cancer,2,1,Male,2
+41,84,178,Gurgaon,B+,Cold,0,0,Female,4
+32,73,181,Gurgaon,O-,Fever,0,0,Male,4
+23,62,165,Bhopal,O+,Fever,0,0,Male,5
+17,52,170,Bhopal,B+,Motions,0,0,Female,5
+22,80,175,Bhopal,AB+,Cold,0,0,Male,5
+28,90,180,Vidisha,O+,Nausea,0,0,Female,5
+21,82,174,Hoshangabad,B-,Cold,0,0,Male,5
+18,56,174,Jabalpur,O+,Fever,0,0,Male,6
+21,67,178,Jabalpur,B+,Mouth Cancer,1,1,Male,7
+26,75,174,Bhopal,O+,Breast Cancer,2,1,Female,7
+42,82,178,Bhopal,AB+,Lung Cancer,1,1,Male,7
+35,75,182,Hoshangabad,B+,Brain Tumor,1,1,Male,7
+42,94,185,Gurgaon,O+,Pancreatic Cancer,2,1,Female,2
+32,85,173,Kanpur,B+,Mouth Cancer,2,1,Male,8
+44,82,179,Kanpur,AB+,Brain Tumor,3,1,Male,2
+75,81,168,Lucknow,O+,Breast Cancer,2,1,Female,8
+62,69,162,Lucknow,B+,Brain Tumor,3,1,Male,2
+54,91,179,Bhopal,AB+,Mouth Cancer,3,1,Male,2
+81,83,172,Mumbai,O+,Skin Cancer,3,1,Male,9
+88,73,175,Mumbai,B+,Lung Cancer,1,1,Female,9
+62,81,181,Nashik,AB+,Mouth Cancer,2,1,Male,9
+74,70,185,Nagpur,O+,Fever,0,0,Male,10
+62,81,171,Mumbai,B+,Cold,0,0,Female,11
+71,80,175,Mumbai,O+,Brain Tumor,3,1,Male,2
+55,81,181,Chandigarh,O+,Lung Cancer,2,1,Male,2
+28,74,175,Chandigarh,B+,Skin Cancer,1,1,Male,12
+45,85,178,Ludhiana,O+,Lung Cancer,3,1,Male,2
+52,82,181,Ludhiana,AB+,Fever,0,0,Female,13
+19,57,175,Amritsar,O+,Uterus Cancer,3,1,Female,2
+27,81,173,Jalandhar,AB+,Brain Tumor,2,1,Female,2
+42,75,180,Jalandhar,O+,Breast Cancer,2,1,Female,2
+52,81,172,Ludhiana,B+,Skin Cancer,2,1,Male,2
+57,75,171,Amritsar,O+,Skin Cancer,1,1,Male,12
+62,74,178,Ahmedabad,O+,Lung Cancer,2,1,Male,14
+71,91,176,Ludhiana,AB+,Mouth Cancer,1,1,Female,12
+52,75,178,Patiala,O+,Brain Tumor,3,1,Male,2
+62,81,175,Patiala,AB+,Skin Cancer,1,1,Male,12
+54,88,178,Amritsar,AB+,Pancreatic Cancer,2,1,Male,12
+63,94,174,Bhopal,O+,Uterus Cancer,3,1,Female,2
+57,84,173,Gurgaon,B+,Skin Cancer,3,1,Female,2
+61,78,178,Agra,AB+,Lung Cancer,2,1,Male,8
+54,77,174,Surat,O+,Testicular Cancer,2,1,Male,14
+33,81,181,Surat,B+,Skin Cancer,1,1,Male,14
+71,80,173,Surat,AB+,Brain Tumor,3,1,Male,2
+55,74,178,Surat,O+,Mouth Cancer,2,1,Female,14
+61,70,171,Vadodara,AB+,Pancreatic Cancer,1,1,Male,14
+40,75,175,Vadodara,B+,Lung Cancer,2,1,Male,14
+31,88,180,Vadodara,O+,Mouth Cancer,3,1,Female,2
+25,96,174,Vadodara,AB+,Brain Tumor,3,1,Male,2
+34,72,168,Ahmedabad,O+,Brain Tumor,3,1,Female,2
+40,80,175,Ahmedabad,AB+,Breast Cancer,3,1,Female,2
+45,77,178,Ahmedabad,B+,Lung Cancer,2,1,Male,14
+52,80,175,Rajkot,O+,Skin Cancer,2,1,Male,14
+55,75,178,Rajkot,B+,Mouth Cancer,2,1,Male,14
+62,88,179,Rajkot,AB+,Pancreatic Cancer,3,1,Female,2
+72,93,175,Rajkot,B+,Testicular Cancer,3,1,Male,2
+65,101,174,Gandhinagar,O+,Fever,0,0,Male,15
+34,75,179,Gandhinagar,B+,Breast Cancer,3,1,Female,2
+45,81,175,Gandhinagar,O+,Skin Cancer,2,1,Male,14
+61,75,178,Chennai,O+,Breast Cancer,3,1,Female,16
+43,81,180,Chennai,B+,Skin Cancer,2,1,Male,16
+19,59,176,Chennai,AB+,Testicular Cancer,3,1,Male,16
+21,73,178,Chennai,O+,Fever,0,0,Male,17
+25,65,181,Chennai,AB+,Cold,0,0,Female,17
+39,76,180,Chennai,O-,Motions,0,0,Female,17
+45,80,182,Chennai,B+,Uterus Cancer,3,1,Female,16
+61,82,177,Coimbatore,O+,Breast Cancer,3,1,Female,16
+53,70,165,Coimbatore,AB+,Fever,0,0,Male,18
+55,75,171,Coimbatore,B+,Cold,0,0,Female,18
+76,88,175,Coimbatore,AB+,Mouth Cancer,2,1,Male,16
+63,90,177,Coimbatore,B+,Lung Cancer,3,1,Female,16
+65,88,175,Madurai,O+,Mouth Cancer,2,1,Male,19
+71,67,177,Madurai,B+,Lung Cancer,3,1,Female,16
+53,97,180,Madurai,AB+,Testicular Cancer,2,1,Male,19
+57,80,172,Madurai,O+,Skin Cancer,3,1,Female,19
+61,74,176,Madurai,B+,Breast Cancer,1,1,Female,19
+77,80,175,Vellore,AB+,Fever,0,0,Male,20
+66,92,178,Vellore,B+,Testicular Cancer,1,1,Male,16
+43,81,175,Vellore,O+,Cold,0,0,Male,20
+36,83,177,Vellore,AB+,Pancreatic Cancer,3,1,Female,16
+54,74,172,Delhi,O+,Breast Cancer,3,1,Female,2
+43,80,175,Delhi,AB+,Testicular Cancer,2,1,Male,2
+18,58,170,Delhi,B+,Fever,0,0,Male,1
+21,65,171,Delhi,O+,Cold,0,0,Female,1
+25,62,175,Delhi,AB+,Motions,0,0,Male,1
+23,60,171,Faridabad,O+,Breast Cancer,1,1,Female,21
+25,65,175,Faridabad,B+,Lung Cancer,1,1,Male,21
+23,80,181,Faridabad,AB+,Fever,0,0,Male,22
+34,82,177,Faridabad,B+,Cold,0,0,Female,22
+31,75,163,Faridabad,AB+,Motions,0,0,Male,22
+37,80,167,Faridabad,B+,Mouth Cancer,1,1,Male,21
+41,67,172,Faridabad,O+,Lung Cancer,2,1,Female,2
+50,80,175,Faridabad,B+,Uterus Cancer,3,1,Female,2
+32,75,177,Faridabad,AB+,Skin Cancer,3,1,Male,2
+19,65,178,Gaziabad,B+,Fever,0,0,Male,3
+21,73,180,Gaziabad,O+,Cold,0,0,Female,3
+35,82,172,Gaziabad,AB+,Motions,0,0,Male,3
+41,90,180,Gaziabad,O+,Testicular Cancer,1,1,Male,23
+50,85,173,Gaziabad,AB+,Breast Cancer,2,1,Female,2
+63,83,175,Gaziabad,B+,Mouth Cancer,3,1,Male,9
+37,90,177,Gaziabad,O+,Skin Cancer,3,1,Female,9
+42,82,163,Noida,O+,Heart Tumor,3,1,Male,9
+31,89,171,Noida,B+,Skin Cancer,2,1,Female,2
+63,77,177,Noida,AB+,Mouth Cancer,2,1,Male,2
+55,91,180,Noida,B+,Lung Cancer,1,1,Male,2
+53,83,175,Noida,O+,Testicular Cancer,2,1,Male,8
+61,90,178,Noida,AB+,Testicular Cancer,1,1,Male,8
+47,88,170,Noida,B+,Testicular Cancer,3,1,Male,8
+78,81,175,Noida,AB+,Testicular Cancer,1,1,Male,8
+80,75,178,Noida,O+,Testicular Cancer,2,1,Male,8
+43,78,180,Noida,AB+,Testicular Cancer,3,1,Male,8
+35,80,181,Noida,O+,Heart Tumor,2,1,Male,9
+41,89,175,Noida,AB+,Heart Tumor,3,1,Female,9
+27,76,179,Noida,B+,Heart Tumor,1,1,Male,9
+34,80,175,Noida,O+,Brain Tumor,1,1,Male,2
+78,81,178,Noida,O+,Brain Tumor,2,1,Female,2
+80,78,179,Noida,B+,Brain Tumor,3,1,Male,2
+76,80,180,Noida,AB+,Brain Tumor,2,1,Female,2
+53,76,168,Noida,O+,Brain Tumor,1,1,Female,2
+71,80,173,Noida,B+,Mouth Cancer,2,1,Female,2
+34,65,175,Noida,O+,Mouth Cancer,1,1,Male,2
+45,71,178,Noida,AB+,Mouth Cancer,3,1,Female,2
+56,80,180,Delhi,O+,Lung Cancer,2,1,Male,2
+61,68,178,Delhi,AB+,Lung Cancer,3,1,Female,2
+45,70,180,Delhi,O+,Testicular Cancer,2,1,Male,8
+46,80,181,Delhi,AB+,Testicular Cancer,3,1,Male,8
+32,81,174,Delhi,B+,Testicular Cancer,1,1,Male,8
+33,80,177,Delhi,O+,Testicular Cancer,2,1,Male,8
+58,77,178,Delhi,O+,Testicular Cancer,3,1,Male,8
+31,80,175,Delhi,O+,Breast Cancer,1,1,Female,9
+45,87,178,Delhi,AB+,Breast Cancer,2,1,Female,9
+43,90,180,Delhi,B+,Breast Cancer,3,1,Female,9
+55,78,176,Delhi,O+,Breast Cancer,2,1,Female,9
+27,81,177,Delhi,AB+,Breast Cancer,3,1,Female,9
+31,80,178,Delhi,B+,Breast Cancer,1,1,Female,9
+71,88,180,Bhopal,O+,Lung Cancer,1,1,Male,7
+63,81,174,Bhopal,B+,Lung Cancer,1,1,Female,7
+51,68,171,Bhopal,AB+,Lung Cancer,1,1,Male,7
+23,70,177,Bhopal,B+,Lung Cancer,1,1,Female,7
+31,71,168,Bhopal,O+,Lung Cancer,2,1,Male,2
+45,78,171,Bhopal,AB+,Lung Cancer,1,1,Female,7
+51,80,175,Bhopal,B+,Lung Cancer,2,1,Female,2
+43,75,178,Bhopal,AB+,Lung Cancer,2,1,Female,2
+36,80,180,Bhopal,B+,Lung Cancer,3,1,Male,2
+41,81,181,Bhopal,AB+,Lung Cancer,2,1,Female,2
+26,71,168,Bhopal,O+,Lung Cancer,3,1,Male,2
+31,70,170,Bhopal,AB+,Lung Cancer,3,1,Female,2
+45,81,179,Bhopal,B+,Lung Cancer,2,1,Male,2
+61,80,174,Bhopal,O+,Heart Tumor,2,1,Female,9
+55,74,178,Bhopal,B+,Heart Tumor,3,1,Male,9
+41,79,174,Bhopal,AB+,Heart Tumor,1,1,Male,9
+54,80,178,Bhopal,O+,Heart Tumor,2,1,Female,9
+58,89,181,Bhopal,B+,Heart Tumor,1,1,Male,9
+74,90,176,Bhopal,O+,Heart Tumor,1,1,Female,9
+52,84,170,Bhopal,B+,Pancreatic Cancer,2,1,Male,21
+41,81,179,Bhopal,AB+,Pancreatic Cancer,3,1,Female,21
+19,69,181,Bhopal,B+,Pancreatic Cancer,1,1,Male,21
+31,75,169,Bhopal,O+,Pancreatic Cancer,1,1,Female,21
+35,77,171,Bhopal,B+,Pancreatic Cancer,2,1,Male,21
+41,81,175,Bhopal,AB+,Pancreatic Cancer,3,1,Female,21
+51,80,181,Kanpur,O+,Testicular Cancer,1,1,Male,8
+37,91,175,Kanpur,B+,Testicular Cancer,2,1,Male,8
+45,69,168,Kanpur,AB+,Testicular Cancer,3,1,Male,8
+51,80,171,Kanpur,O+,Testicular Cancer,2,1,Male,8
+27,73,175,Kanpur,B+,Testicular Cancer,1,1,Male,8
+33,89,177,Kanpur,AB+,Testicular Cancer,3,1,Male,8
+18,61,173,Kanpur,B+,Skin Cancer,1,1,Male,8
+25,77,180,Kanpur,O+,Skin Cancer,2,1,Female,8
+31,70,175,Kanpur,AB+,Skin Cancer,3,1,Male,8
+19,65,178,Kanpur,B+,Skin Cancer,2,1,Female,8
+45,70,170,Kanpur,O+,Skin Cancer,1,1,Male,8
+31,61,175,Kanpur,B+,Breast Cancer,1,1,Female,24
+27,65,171,Kanpur,O+,Breast Cancer,1,1,Female,24
+45,81,178,Kanpur,AB+,Breast Cancer,1,1,Female,24
+61,75,180,Kanpur,O+,Breast Cancer,1,1,Female,24
+31,77,177,Kanpur,B+,Breast Cancer,2,1,Female,9
+35,80,174,Kanpur,O+,Breast Cancer,3,1,Female,9
+23,81,175,Kanpur,AB+,Breast Cancer,2,1,Female,9
+31,75,178,Kanpur,O+,Breast Cancer,2,1,Female,9
+40,63,169,Kanpur,O+,Breast Cancer,3,1,Female,9
+51,79,171,Kanpur,B+,Breast Cancer,3,1,Female,9
+37,72,175,Kanpur,O+,Brain Tumor,1,1,Male,2
+42,70,177,Kanpur,AB+,Brain Tumor,2,1,Female,2
+45,78,175,Kanpur,B+,Brain Tumor,3,1,Male,2
+51,80,180,Kanpur,O+,Brain Tumor,1,1,Female,2
+60,71,174,Kanpur,AB+,Brain Tumor,2,1,Male,2
+65,70,171,Kanpur,O+,Lung Cancer,1,1,Male,2
+61,79,175,Kanpur,B+,Lung Cancer,2,1,Male,2
+78,81,177,Kanpur,AB+,Lung Cancer,3,1,Female,2
+85,90,175,Kanpur,B+,Lung Cancer,2,1,Male,2
+65,77,178,Kanpur,O+,Heart Tumor,1,1,Male,9
+51,80,175,Kanpur,AB+,Heart Tumor,2,1,Female,9
+43,77,181,Kanpur,O+,Heart Tumor,3,1,Male,9
+55,63,173,Kanpur,B+,Heart Tumor,2,1,Male,9
+67,71,177,Kanpur,AB+,Heart Tumor,1,1,Female,9
+71,80,181,Kanpur,B+,Heart Tumor,3,1,Male,9
+53,68,171,Kanpur,O+,Heart Tumor,1,1,Female,9
+41,73,175,Lucknow,AB+,Breast Cancer,1,1,Female,24
+55,79,173,Lucknow,B+,Breast Cancer,2,1,Female,24
+61,80,177,Lucknow,O+,Breast Cancer,3,1,Female,24
+50,81,179,Lucknow,B+,Breast Cancer,2,1,Female,24
+38,68,169,Lucknow,AB+,Breast Cancer,3,1,Female,24
+43,70,171,Lucknow,O+,Skin Cancer,1,1,Male,8
+51,75,175,Lucknow,B+,Skin Cancer,2,1,Female,8
+37,80,177,Lucknow,AB+,Skin Cancer,3,1,Male,8
+22,81,172,Lucknow,O+,Skin Cancer,2,1,Female,8
+31,77,179,Lucknow,O+,Skin Cancer,1,1,Male,8
+24,70,175,Lucknow,B+,Brain Tumor,2,1,Female,2
+29,78,169,Lucknow,O+,Brain Tumor,1,1,Male,2
+32,72,180,Lucknow,AB+,Brain Tumor,3,1,Male,2
+40,81,172,Lucknow,O+,Brain Tumor,1,1,Female,2
+22,74,170,Mumbai,O+,Lung Cancer,1,1,Male,28
+39,62,179,Mumbai,AB+,Lung Cancer,2,1,Female,28
+41,60,175,Mumbai,B+,Lung Cancer,3,1,Male,28
+33,68,178,Mumbai,O+,Mouth Cancer,1,1,Male,28
+37,71,171,Mumbai,B+,Mouth Cancer,2,1,Female,28
+41,80,180,Mumbai,AB+,Mouth Cancer,3,1,Male,28
+38,75,179,Mumbai,O+,Brain Tumor,1,1,Male,9
+29,80,180,Mumbai,B+,Brain Tumor,2,1,Female,9
+33,67,178,Mumbai,O+,Brain Tumor,1,1,Male,9
+78,81,165,Mumbai,B+,Brain Tumor,3,1,Male,9
+80,74,179,Mumbai,AB+,Brain Tumor,1,1,Female,9
+61,83,170,Mumbai,B+,Brain Tumor,2,1,Male,9
+32,80,171,Mumbai,O+,Breast Cancer,1,1,Female,9
+34,81,170,Mumbai,B+,Breast Cancer,2,1,Female,9
+45,70,175,Mumbai,AB+,Breast Cancer,3,1,Female,9
+51,65,181,Mumbai,O+,Breast Cancer,1,1,Female,9
+62,78,169,Mumbai,B+,Breast Cancer,2,1,Female,9
+70,80,173,Mumbai,O+,Breast Cancer,3,1,Female,9
+37,70,175,Chandigarh,B+,Skin Cancer,2,1,Female,29
+45,71,171,Chandigarh,O+,Skin Cancer,1,1,Male,29
+53,80,180,Chandigarh,AB+,Skin Cancer,3,1,Male,29
+41,85,175,Chandigarh,O+,Skin Cancer,2,1,Female,29
+62,71,181,Chandigarh,B+,Skin Cancer,1,1,Male,29
+37,70,178,Chandigarh,O+,Lung Cancer,1,1,Male,30
+41,80,169,Chandigarh,B+,Lung Cancer,1,1,Female,30
+55,75,170,Chandigarh,AB+,Lung Cancer,1,1,Male,30
+31,70,165,Chandigarh,O+,Lung Cancer,3,1,Female,2
+27,74,170,Chandigarh,AB+,Lung Cancer,2,1,Male,2
+31,80,178,Chandigarh,O+,Lung Cancer,3,1,Male,2
+68,68,167,Chandigarh,B+,Lung Cancer,2,1,Female,2
+53,79,159,Chandigarh,AB+,Lung Cancer,3,1,Male,2
+43,80,168,Chandigarh,O+,Brain Tumor,1,1,Male,2
+29,85,175,Chandigarh,B+,Brain Tumor,2,1,Female,2
+40,87,180,Chandigarh,AB+,Brain Tumor,3,1,Male,2
+56,81,177,Chandigarh,O+,Brain Tumor,2,1,Female,2
+63,72,181,Chandigarh,B+,Brain Tumor,3,1,Male,2
+58,65,173,Chandigarh,O+,Breast Cancer,1,1,Female,9
+44,71,175,Chandigarh,B+,Breast Cancer,2,1,Female,9
+71,69,180,Chandigarh,O+,Breast Cancer,3,1,Female,9
+62,78,168,Chandigarh,AB+,Breast Cancer,2,1,Female,9
+39,80,170,Chandigarh,B+,Breast Cancer,1,1,Female,9
+44,85,172,Chandigarh,O+,Heart Tumor,1,1,Male,9
+57,72,180,Chandigarh,B+,Heart Tumor,2,1,Female,9
+61,78,165,Chandigarh,AB+,Heart Tumor,3,1,Male,9
+70,75,171,Chandigarh,B+,Heart Tumor,2,1,Female,9
+81,68,177,Chandigarh,B+,Heart Tumor,1,1,Male,9
+75,70,170,Amritsar,O+,Lung Cancer,1,1,Male,30
+46,65,165,Amritsar,O+,Lung Cancer,2,1,Male,30
+58,80,171,Amritsar,B+,Lung Cancer,2,1,Female,30
+60,91,178,Amritsar,AB+,Lung Cancer,1,1,Female,30
+78,85,169,Amritsar,O+,Lung Cancer,3,1,Male,2
+63,93,180,Amritsar,AB+,Lung Cancer,3,1,Male,2
+74,76,163,Amritsar,B+,Lung Cancer,3,1,Female,2
+34,72,170,Amritsar,O+,Lung Cancer,3,1,Female,2
+24,60,165,Amritsar,O+,Heart Tumor,1,1,Male,12
+17,56,157,Amritsar,B+,Heart Tumor,2,1,Female,12
+31,67,171,Amritsar,AB+,Heart Tumor,3,1,Male,12
+28,80,180,Amritsar,O+,Heart Tumor,2,1,Female,12
+78,73,162,Amritsar,B+,Mouth Cancer,1,1,Male,12
+72,63,178,Amritsar,AB+,Mouth Cancer,2,1,Female,12
+63,71,169,Amritsar,O+,Mouth Cancer,3,1,Male,12
+52,61,173,Amritsar,B+,Mouth Cancer,1,1,Female,12
+43,65,170,Amritsar,O+,Brain Tumor,1,1,Male,2
+50,78,165,Amritsar,B+,Brain Tumor,2,1,Female,2
+19,80,171,Amritsar,AB+,Brain Tumor,3,1,Male,2
+25,83,178,Amritsar,B+,Brain Tumor,2,1,Female,2
+35,92,175,Amritsar,O+,Breast Cancer,1,1,Female,9
+41,87,168,Amritsar,AB+,Breast Cancer,2,1,Female,9
+63,85,179,Amritsar,O+,Breast Cancer,3,1,Female,9
+71,80,173,Chennai,O+,Lung Cancer,1,1,Male,16
+53,75,180,Chennai,AB+,Lung Cancer,2,1,Female,16
+23,70,175,Chennai,B+,Lung Cancer,3,1,Male,16
+31,80,178,Chennai,O+,Lung Cancer,2,1,Female,16
+45,82,180,Chennai,B+,Lung Cancer,2,1,Male,16
+33,81,178,Chennai,O+,Mouth Cancer,1,1,Male,16
+81,76,169,Chennai,B+,Mouth Cancer,2,1,Female,16
+79,79,171,Chennai,AB+,Mouth Cancer,3,1,Male,16
+71,90,174,Chennai,B+,Mouth Cancer,2,1,Female,16
+63,71,179,Chennai,O+,Mouth Cancer,1,1,Male,16
+56,78,170,Chennai,O+,Heart Tumor,1,1,Male,2
+40,81,168,Chennai,B+,Heart Tumor,2,1,Female,2
+36,66,178,Chennai,AB+,Heart Tumor,3,1,Female,2
+58,54,181,Chennai,O+,Heart Tumor,1,1,Male,2
+43,69,177,Coimbatore,O+,Skin Cancer,1,1,Male,16
+51,78,175,Coimbatore,B+,Skin Cancer,2,1,Female,16
+60,81,179,Coimbatore,AB+,Skin Cancer,3,1,Female,16
+45,90,180,Coimbatore,O+,Skin Cancer,2,1,Male,16
+56,86,174,Coimbatore,B+,Mouth Cancer,1,1,Male,16
+62,80,173,Coimbatore,O+,Mouth Cancer,2,1,Female,16
+78,74,178,Coimbatore,B+,Mouth Cancer,3,1,Male,16
+81,71,168,Coimbatore,AB+,Mouth Cancer,2,1,Female,16
+34,82,170,Coimbatore,B+,Mouth Cancer,1,1,Male,16
+46,90,171,Coimbatore,O+,Brain Tumor,3,1,Male,2
+64,72,180,Coimbatore,B+,Brain Tumor,1,1,Female,2
+43,70,177,Coimbatore,O+,Brain Tumor,2,1,Male,2
+51,78,171,Coimbatore,B+,Brain Tumor,3,1,Female,2
+49,71,175,Coimbatore,AB+,Brain Tumor,1,1,Male,2
+74,80,180,Coimbatore,O+,Brain Tumor,2,1,Female,2
