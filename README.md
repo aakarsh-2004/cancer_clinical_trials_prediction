@@ -46,7 +46,7 @@ The **`data.csv`** file consists of all the data that the model is trained on, y
 
 #### Install cors and all the necessary libararies by typing
 ```
-pip install django-cors-headers scikit-learn pandas numpy
+pip install django django-cors-headers scikit-learn pandas numpy
 ```
   
 The folder `api` consists of the backend files which are created using `django` framework of python. 
