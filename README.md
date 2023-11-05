@@ -6,6 +6,8 @@ Nowadays cancer clinical trials are creating tremendous problem especially in In
 # Introduction about the problem
 As cancer is a very serious disease and it in any case should not be taken lightly, we figured out a machine learning model that tells the user the best cancer treatment hospital available as per one's disease, stage, gender etc.
 
+<img src="./assets/home_page.png" >
+
 # The Solution
 We created a machine learning model that asks the following queries from user :
 * Age
@@ -20,6 +22,8 @@ We created a machine learning model that asks the following queries from user :
 
 Using these parameters we trained a Scikit-Learn based machine learning model which predicts the best hospital or center that is available to a patient, the model's prediction is not always all accurate and it may give false output
 
+
+<img src="./assets/clinical_trial.png" >
 
 # Technologies used:
 **`Pandas`**, **`Numpy`**,  **`Scikit-Learn`**, **`React`**, **`Django`**, **`Node`**, **`MongoDB`**
