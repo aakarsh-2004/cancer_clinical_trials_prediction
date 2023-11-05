@@ -22,7 +22,7 @@ Using these parameters we trained a Scikit-Learn based machine learning model wh
 
 
 # Technologies used:
-**`Scikit-Learn`**, **`React`**, **`Django`**, **`Node`**, **`MongoDB`**
+**`Pandas`**, **`Numpy`**,  **`Scikit-Learn`**, **`React`**, **`Django`**, **`Node`**, **`MongoDB`**
 
 # Team Members:
 * [Aakarsh Beohar](https://github.com/aakarsh-2004)
@@ -50,3 +50,24 @@ python manage.py runserver
 Inside the subdir `api` of api, there is a `views` file in which all python function are written, they gets executed when the particular api is called.
 To define those particular parameters we use `urls` file, all the links that are to be hitted and used are defined there.
 Changing the `settings` file is generally not recommended if everything is working but if it's not then you may need to make the necessary changes to setup `cors`.
+
+
+**For Node.js backend**:
+To run the server, open the terminal in the main folder and then type
+```
+npm start
+```
+Our main file `app.js` consists of all the necessary API endpoints which helps us further to load and display the data.
+Then there are Schemas files like `citiesSchema.js`, `trialcenterSchema.js` and `userSchema.js` which helps us to define the schema for our data that has to be stored, as we have a MongoDB database
+
+
+
+### The Frontend files
+**`React`** has been used for the complete Frontend part, to make the API calls in React `Fetch` and `axios` have been used.
+
+To start React server, open the main file in terminal and then type
+```
+npm start
+```
+and it should begin the server.
+**Note:** There are 3 servers running for the proper working of our model.
