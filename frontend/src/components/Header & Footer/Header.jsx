@@ -6,11 +6,12 @@ import AfterLogin from "../Login & SignUp/AfterLogin";
 import "./Header.css";
 
 function Header() {
-
+    // getting the session from the localStorage
     let auth = localStorage.getItem("user");
 
     const navigate = useNavigate();
 
+    // Handling the logout functionality
     const HandleLogout = () => {
         localStorage.clear();
         auth = localStorage.getItem("user");

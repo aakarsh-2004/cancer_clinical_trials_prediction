@@ -1,5 +1,6 @@
 import mongoose from "mongoose";
 
+// UserSchema consists of all the necessary information about the user that is used to make predictions.
 const userSchema = new mongoose.Schema({
     name: String,
     username: String,

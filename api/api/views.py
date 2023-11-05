@@ -42,9 +42,9 @@ def get_data(request):
             "Age": user["Age"],
             "Weight (in kg)": user["Weight"],
             "Height (in cm)": user["Height"],
-            "Location": user["Location"],
+            "Location": user["Location"].title(),
             "Blood Group": user["Blood Group"],
-            "Disease": user["Disease"],
+            "Disease": user["Disease"].title(),
             "Stage": user["Stage"],
             "Cancer": user["Cancer"],
             "Gender": user["Gender"]
@@ -70,5 +70,6 @@ def get_data(request):
             "Disease": disease,
             "City": pred_city
         }
+        print(to_return)
 
         return JsonResponse(to_return, safe=False)

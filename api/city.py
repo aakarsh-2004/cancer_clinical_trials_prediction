@@ -1,8 +1,9 @@
 # These are the respective city names which are keyed with a string numerical data which is ultimately predicted by our model
 city_names = {
+    "1": "Delhi",
     "2": "Delhi",
-    "3": "Gaziabad",
-    "4": "Gurgaon",
+    "3": "Delhi",
+    "4": "Delhi",
     "7": "Bhopal",
     "8": "Kanpur",
     "9": "Nagpur",

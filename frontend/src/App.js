@@ -13,6 +13,7 @@ import "./App.css";
 function App() {
 
     return (
+        // Creating all the different Routes for our app
         <div>
             <BrowserRouter>
                 <Header />

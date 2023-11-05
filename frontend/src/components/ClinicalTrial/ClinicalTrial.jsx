@@ -6,36 +6,37 @@ import { FaLocationDot } from "react-icons/fa6";
 import { FaAngleRight } from "react-icons/fa";
 
 function ClinicalTrial() {
-
+    const [pred, setPred] = useState("");
     const [recommended, setRecommended] = useState("");
     const [otherCenters, setOtherCenters] = useState("");
 
+
+    // Loading all the necessary details when the page is loaded
     useEffect(() => {
+        async function recommendedCenter() {
+            const user = localStorage.getItem("user");
 
-        async function getRecommmendedCenter() {
-            let center = await fetch("http://localhost:5050/recommended-center", {
-                method: "get"
-            });
+            let result = await fetch("http://localhost:5050/center", {
+                method: "post",
+                body: (user),
+                headers: {
+                    "Content-Type": "application/json"
+                }
+            })
 
-            center = await center.json();
-            setRecommended(center);
+            result = await result.json();
 
-            let others = await fetch("http://localhost:5050/other-centers", {
-                method: "get"
-            });
+            console.log(result);
 
-            others = await others.json();
-            setOtherCenters(others);
-            // console.log(others);
+            setRecommended(result.recommended);
+            setOtherCenters(result.other);
         }
 
-        getRecommmendedCenter();
-
+        recommendedCenter();
     }, [])
+    console.log(recommended);
+    console.log(otherCenters);
 
-    for (let i = 0; i < otherCenters.length; i++) {
-        console.log(otherCenters[i]);
-    }
 
     return (
         <div className="clinical-trial">
@@ -65,43 +66,7 @@ function ClinicalTrial() {
                     )
                 }) : ""}
 
-                {/* <ClinicalTrialBlocks
-                    name="anant shree multispeciality hospital"
-                    email="anant1452@gmail.com"
-                    contact="7554262151"
-                    trials="Breast Cancer"
-                    loc="chandragupta marg chanakpuri, New Delhi"
-                /><ClinicalTrialBlocks
-                    name="anant shree multispeciality hospital"
-                    email="anant1452@gmail.com"
-                    contact="7554262151"
-                    trials="Breast Cancer"
-                    loc="chandragupta marg chanakpuri, New Delhi"
-                /><ClinicalTrialBlocks
-                    name="anant shree multispeciality hospital"
-                    email="anant1452@gmail.com"
-                    contact="7554262151"
-                    trials="Breast Cancer"
-                    loc="chandragupta marg chanakpuri, New Delhi"
-                /><ClinicalTrialBlocks
-                    name="anant shree multispeciality hospital"
-                    email="anant1452@gmail.com"
-                    contact="7554262151"
-                    trials="Breast Cancer"
-                    loc="chandragupta marg chanakpuri, New Delhi"
-                /><ClinicalTrialBlocks
-                    name="anant shree multispeciality hospital"
-                    email="anant1452@gmail.com"
-                    contact="7554262151"
-                    trials="Breast Cancer"
-                    loc="chandragupta marg chanakpuri, New Delhi"
-                /><ClinicalTrialBlocks
-                    name="anant shree multispeciality hospital"
-                    email="anant1452@gmail.com"
-                    contact="7554262151"
-                    trials="Breast Cancer"
-                    loc="chandragupta marg chanakpuri, New Delhi"
-                /> */}
+
             </div>
         </div>
     )
