@@ -43,6 +43,11 @@ The **`data.csv`** file consists of all the data that the model is trained on, y
 
 ### The backend files
 > You may need to install all the necessary dependencies
+
+#### Install cors and all the necessary libararies by typing
+```
+pip install django-cors-headers scikit-learn pandas numpy
+```
   
 The folder `api` consists of the backend files which are created using `django` framework of python. 
 To run the backend server, go one step into api and type
@@ -57,7 +62,12 @@ Changing the `settings` file is generally not recommended if everything is worki
 
 
 **For Node.js backend**:
-To run the server, open the terminal in the main folder and then type
+#### First install all the dependencies by typing in the node_backend folder:
+```
+npm install
+```
+
+To run the server, type
 ```
 npm start
 ```
@@ -69,9 +79,24 @@ Then there are Schemas files like `citiesSchema.js`, `trialcenterSchema.js` and 
 ### The Frontend files
 **`React`** has been used for the complete Frontend part, to make the API calls in React `Fetch` and `axios` have been used.
 
+#### First install all the necessary dependencies by going inside the frontend folder and type:
+
+```
+npm install
+```
+
 To start React server, open the main file in terminal and then type
 ```
 npm start
 ```
 and it should begin the server.
 **Note:** There are 3 servers running for the proper working of our model.
+
+# Project's Features
+* It offers a great help (if not accurate) to cancer diagnosed patients
+* The website is completely full stack, it means things like auth, cookies and sessions are implemented along with login and register
+* Due to the presence of two backend languages, it offers us multiple things to do simultaneously, even API contacting API!
+
+# Limitations of the project as of now
+* Due to lack of data, the model overfits a little.
+* As of now the model only shows output for some cities because of the limitations of dataset.
