@@ -14,13 +14,13 @@ import joblib as jl
 def get_data(request):
     if request.method == 'POST':
         # loading our previously model
-        model = jl.load("C:/Team Hacking For the Future/api/api/model.joblib")
+        model = jl.load("./api/model.joblib")
 
         # Getting data from frontend
         user = json.loads(request.body)
 
         # Reading the data csv file
-        data = pd.read_csv("C:/Hackathon/data2.csv")
+        data = pd.read_csv("../data.csv")
         
         # Separating X and y
         X = data.drop("Center", axis=1)
@@ -62,6 +62,8 @@ def get_data(request):
         for i in city_names:
             if (i == str(res)):
                 pred_city = city_names[i]
+            elif (user_city == city_names[i]):
+                pred_city = user_city
         print(res)
 
         # Finally returning the desired parameters
