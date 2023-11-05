@@ -25,6 +25,9 @@ Using these parameters we trained a Scikit-Learn based machine learning model wh
 
 <img src="./assets/clinical_trial.png" >
 
+# Presentation
+[**`Google Slides`**](https://docs.google.com/presentation/d/10wlNkXw90fONtBVJ0H9Q-0NB37deeQ5d9BRQtqF-nDo/edit?usp=sharing)
+
 # Technologies used:
 **`Pandas`**, **`Numpy`**,  **`Scikit-Learn`**, **`React`**, **`Django`**, **`Node`**, **`MongoDB`**
 
@@ -46,8 +49,9 @@ The **`data.csv`** file consists of all the data that the model is trained on, y
 
 #### Install cors and all the necessary libararies by typing
 ```
-pip install django django-cors-headers scikit-learn pandas numpy
+pip install django djangorestframework django-cors-headers scikit-learn==1.2.2 pandas numpy
 ```
+**NOTE:** Remember to check paths wherever imports are there
   
 The folder `api` consists of the backend files which are created using `django` framework of python. 
 To run the backend server, go one step into api and type
@@ -100,3 +104,5 @@ and it should begin the server.
 # Limitations of the project as of now
 * Due to lack of data, the model overfits a little.
 * As of now the model only shows output for some cities because of the limitations of dataset.
+
+
