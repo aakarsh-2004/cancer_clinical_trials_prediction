@@ -12,9 +12,12 @@ function ImgAndData() {
         <section className="upper">
 
             <div>
-                <h1>WHO resolution on clinical trials</h1>
+                <div>
+                    <h1>WHO resolution on clinical trials</h1>
+                    <a href="/clinicaltrial">Your Clinical Trial</a>
+                </div>
+                <img src="https://img.freepik.com/free-vector/hand-drawn-national-doctor-s-day-illustration-with-medics-essentials_23-2149447532.jpg?size=626&ext=jpg" alt="" />
             </div>
-
             <div>
                 <div>
                     <h4><BiCaretRight />
