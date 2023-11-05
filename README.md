@@ -106,3 +106,6 @@ and it should begin the server.
 * As of now the model only shows output for some cities because of the limitations of dataset.
 
 
+# We took part in following MLH competitions
+* Best use of MongoDB Atlas
+* Most creative use of GitHub
