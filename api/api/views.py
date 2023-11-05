@@ -2,39 +2,31 @@ from django.http import JsonResponse
 from django.views.decorators.csrf import csrf_exempt
 from sklearn.preprocessing import OneHotEncoder
 from sklearn.compose import ColumnTransformer
+from city import city_names
 
 import pandas as pd
 import json
 import joblib as jl
 
-city_names = {
-    "2": "Delhi",
-    "7": "Bhopal",
-    "8": "Kanpur",
-    "9": "Nagpur",
-    "12": "Chandigarh",
-    "14": "Ahmedabad",
-    "16": "Chennai",
-    "19": "Madurai",
-    "21": "Faridabad",
-    "23": "Ghaziabad",
-    "24": "Lucknow",
-    "25": "Surat",
-    "26": "Hyderabad",
-    "27": "Gandhinagar",
-    "28": "Mumbai",
-    "29": "Chandigarh",
-    "30": "Amritsar"
-}
 
+# Disabling the CSRF protection set by django
 @csrf_exempt
 def get_data(request):
     if request.method == 'POST':
+        # loading our previously model
         model = jl.load("C:/Team Hacking For the Future/api/api/model.joblib")
+
+        # Getting data from frontend
         user = json.loads(request.body)
+
+        # Reading the data csv file
         data = pd.read_csv("C:/Hackathon/data2.csv")
+        
+        # Separating X and y
         X = data.drop("Center", axis=1)
         y = data["Center"]
+
+        # Defining OneHotEncoding so that user's input can be converted into the same format as that of our training dataset
         categorical_features = ["Location", "Blood Group", "Disease", "Gender"]
         one_hot = OneHotEncoder()
         transformer = ColumnTransformer([(
@@ -44,6 +36,8 @@ def get_data(request):
             remainder="passthrough"
         )
         transformer.fit_transform(X)
+
+        # Defining the dictionary and making a pandas dataframe out of it
         user_data = {
             "Age": user["Age"],
             "Weight (in kg)": user["Weight"],
@@ -56,8 +50,12 @@ def get_data(request):
             "Gender": user["Gender"]
         }
         user_df = pd.DataFrame(user_data, index=[0])
+
+        # Now changing our input's parameter same as that of the training dataset
         user_data_transformed = transformer.transform(user_df)
         disease = user["Disease"]
+
+        # Finally predicting the hospital/center with our pretrained model
         res = round(model.predict(user_data_transformed)[0])
         user_city = user_data["Location"]
         pred_city = ""
@@ -65,6 +63,8 @@ def get_data(request):
             if (i == str(res)):
                 pred_city = city_names[i]
         print(res)
+
+        # Finally returning the desired parameters
         to_return = {
             "Result": res,
             "Disease": disease,

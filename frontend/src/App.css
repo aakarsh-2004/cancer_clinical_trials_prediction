@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Montserrat:wght@100;400;500;600;700;800;900&family=Roboto:wght@400;500&display=swap');
+
+:root{
+    --headerBg: #fff;
+    --darkBlue: #0073a8;
+    --Blue: #10b5cb;
+    --lightBlue: #21d5ed;
+    --darkOrange: #f97809;
+    --Orange: #f68806;
+    --lightOrange: #ffa001;
+    --orangeGradient: linear-gradient(to right, var(--lightOrange), var(--darkOrange));
+    --blueGradient: linear-gradient(to right, var(--lightBlue), var(--darkBlue));
+}
+
+::-webkit-scrollbar{
+    width: 15px;
+}
+
+::-webkit-scrollbar-track{
+    background-color: #eee;
+}
+
+::-webkit-scrollbar-thumb{
+    width: 10px;
+    background: linear-gradient(var(--lightBlue) 50%, var(--darkBlue));
+    background: grey;
+    border: 2px solid rgba(0, 0, 0, 0);
+    background-clip: padding-box;
+    border-radius: 10px;
+}
+
+*, *::before, *::after{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Montserrat', sans-serif;
+    border: none;
+    outline: none;
+}
+
+body{
+    width: 100%;
+    min-height: 100.1vh;
+    background-color: #eee;
+}
+
+.test{
+    padding-top: 5rem;
+}

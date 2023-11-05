@@ -1,0 +1,113 @@
+
+:root{
+    --headerBg: #fff;
+    --darkBlue: #0073a8;
+    --Blue: #10b5cb;
+    --lightBlue: #21d5ed;
+    --darkOrange: #f97809;
+    --Orange: #f68806;
+    --lightOrange: #ffa001;
+    --orangeGradient: linear-gradient(to right, var(--lightOrange), var(--darkOrange));
+    --blueGradient: linear-gradient(to right, var(--lightBlue), var(--darkBlue));
+}
+
+
+.register-form, .login-form{
+    padding-top: 4rem;
+    width: 100%;
+    min-height: 100.1vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.login-form{
+    background: url(../../assets/yoya\ \(3\).jpg) no-repeat center center/cover;
+}
+
+.register-form>div, .login-form>div>div{
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    padding: 2rem;
+    box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.5);
+}
+
+.register-form h3, .login-form h3{
+    color: black;
+    text-transform: uppercase;
+    font-size: 25px;
+    margin-bottom: 1rem;
+}
+
+.register-form input, .login-form input{
+    width: 20rem;
+    height: 2.5rem;
+    padding: 0rem 1rem;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    background-color: #eee;
+}
+
+.register-form input:hover,
+.register-form input:focus,
+.login-form input:hover,
+.login-form input:focus{
+    box-shadow: 3px 3px 0px 0px rgba(0, 0, 0, 0.5);
+}
+
+.register-form a{
+    color: white;
+    font-size: 14px;
+}
+
+.register-form a:hover{
+    text-decoration: underline;
+}
+
+.register-form p,
+.login-form>div>div:first-child p:nth-child(4),
+.login-form>div>div:last-child p:nth-child(5)
+{
+    font-size: 12px;
+    color: rgb(253, 91, 91);
+    color: red;
+}
+
+.forgot-pass-page, .login-page{
+    font-size: 14px;
+    color: black;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.forgot-pass-page:hover, .login-page:hover{
+    text-decoration: underline;
+}
+
+.register-form button, .login-form button{
+    width: 100%;
+    padding: 0.5rem ;
+    margin-top: 1rem;
+    border: 1px solid black;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+/* .register-form button:hover,
+.login-form button:hover{
+    background: var(--orangeGradient);
+    color: white;
+} */
+
+.register-form button:active,
+.login-form button:active{
+    transform: scale(0.99);
+}

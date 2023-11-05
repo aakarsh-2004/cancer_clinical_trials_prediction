@@ -1,0 +1,109 @@
+
+
+:root{
+    --headerBg: #fff;
+    --darkBlue: #0073a8;
+    --Blue: #10b5cb;
+    --lightBlue: #21d5ed;
+    --darkOrange: #f97809;
+    --Orange: #f68806;
+    --lightOrange: #ffa001;
+    --orangeGradient: linear-gradient(to right, var(--lightOrange), var(--darkOrange));
+    --blueGradient: linear-gradient(to right, var(--lightBlue), var(--darkBlue));
+}
+
+
+.registration-form{
+    padding: 2rem 0;
+    padding-top: 6rem;
+    width: 100%;
+    min-height: 100.1vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url(../../assets/yoya\ \(3\).jpg) no-repeat left center/cover;
+}
+
+.registration-form>div{
+    width: 35rem;
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    padding: 2rem 3rem;
+    box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.5);
+}
+
+.registration-form h3{
+    color: black;
+    text-transform: uppercase;
+    font-size: 25px;
+    margin-bottom: 1rem;
+}
+
+.registration-form input{
+    width: 100%;
+    height: 2.5rem;
+    padding: 0rem 1rem;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    background-color: #eee;
+}
+
+.registration-form input:hover,
+.registration-form input:focus{
+    box-shadow: 3px 3px 0px 0px rgba(0, 0, 0, 0.5);
+}
+
+.height-weight{
+    display: flex;
+    width: 100%;
+    gap: 1rem;
+}
+
+.cancer-data, .general-data{
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto 11rem;
+    gap: 1rem;
+}
+
+.general-data{
+    margin-top: 1rem;
+}
+
+.registration-form>div label{
+    /* border: 1px solid black; */
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+    padding: 0 5px;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.registration-form>div select{
+    width: 6rem;
+    padding: 5px;
+    background-color: #eee  ;
+}
+
+.registration-form button{
+    padding: 0.5rem;
+    width: 100%;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    margin: 1rem 0;
+    border-radius: 10px;
+}
+
+.registration-form button:active{
+    transform: scale(0.99);
+}

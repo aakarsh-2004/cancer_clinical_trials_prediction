@@ -1,0 +1,58 @@
+
+
+.contact-us{
+    /* border: 1px solid black; */
+    padding: 3rem 5rem;
+    padding-bottom: 2rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+}
+
+.contact-us>div{
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 1rem 2rem;
+    gap: 1rem;
+    background-color: white;
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.5);
+    border-radius: 8px;
+}
+
+.contact-us h3{
+    font-size: 25px;
+}
+
+.contact-us input{
+    padding: 0.6rem 1rem;
+    width: 100%;
+    font-size: 14px;
+    background-color: #eee;
+    border-radius: 10px;
+}
+
+.contact-us p{
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.contact-us p>svg{
+    color: green;
+}
+
+.contact-us button{
+    padding: 0.5rem;
+    border: 1px solid black;
+    font-size: 14px;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+.contact-us button:active{
+    transform: scale(0.99);
+}

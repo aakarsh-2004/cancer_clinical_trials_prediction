@@ -1,0 +1,136 @@
+
+
+.feedback{
+    padding-top: 4rem;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.feedback>div{
+    /* border: 1px solid black; */
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.5);
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 40rem;
+    padding: 3rem;
+    margin: 2rem 0;
+    gap: 1rem;
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.5);
+}
+
+.feedback h3{
+    text-align: center;
+    width: 100%;
+    font-size: 35px;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid grey;
+}
+
+.feedback>div input{
+    width: 100%;
+    padding: 0.6rem 1rem;
+    font-size: 14px;
+    outline: none;
+    border: 1px solid transparent;
+    border-radius: 10px;
+    background-color: #eee;
+}
+
+.feedback>div textarea{
+    width: 100%;
+    min-height: 15rem;
+    resize: none;
+    outline: none;
+    padding: 1rem;
+    /* border-radius: 10px; */
+    border: none;
+    background-color: #eee;
+}
+
+.feedback>div textarea::-webkit-scrollbar{
+    width: 12px;
+}
+
+.feedback>div textarea::-webkit-scrollbar-track{
+    background-color: transparent;
+}
+
+.feedback>div textarea::-webkit-scrollbar-thumb{
+    width: 15px;
+    background: grey;
+    border: 2px solid rgba(0, 0, 0, 0);
+    background-clip: padding-box;
+    border-radius: 10px;
+}
+
+.feedback>div input:hover,
+.feedback>div input:focus,
+.feedback>div textarea:hover,
+.feedback>div textarea:focus,
+.feedback>div select:hover,
+.feedback>div select:focus{
+    /* border-color: black; */
+    box-shadow: 3px 3px 0px 0px rgba(0, 0 , 0  , 0.5);
+}
+
+.feedback>div>div{
+    margin: 0.5rem;
+    width: calc(100% - 2rem);
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    gap: 1rem;
+}
+
+.feedback>div>div>svg{
+    font-size: 20px;
+}
+
+.feedback>div>div p{
+    margin-left: 1rem;
+    color: white;
+    color: black;
+}
+
+.feedback>div select{
+    padding: 0.5rem 1rem;
+    width: 20rem;
+    outline: none;
+    background-color: #eee;
+    /* border: none; */
+}
+
+.feedback option{
+    padding: 0.5rem;
+}
+
+.feedback button{
+    width: 100%;
+    padding: 0.5rem 1rem;
+    margin-top: 1.5rem;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 16px;
+    color: white;
+    background-color: #eee;
+    background-color: black;
+    /* border: 1px solid black; */
+}
+
+/* .feedback button:hover{
+    background-color: black;
+} */
+
+.feedback button:active{
+    transform: scale(0.99);
+}
