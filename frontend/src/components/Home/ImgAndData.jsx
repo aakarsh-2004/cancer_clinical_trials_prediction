@@ -1,4 +1,5 @@
 import React from "react";
+import { useNavigate } from "react-router-dom";
 import QueAns from "./QueAns";
 import { FcFaq } from "react-icons/fc"
 import { BiCaretRight } from "react-icons/bi";
@@ -8,13 +9,20 @@ import "./Home.css";
 
 
 function ImgAndData() {
+
+    const navigate = useNavigate()
+
+    function DirectToClinicalTrial() {
+        navigate("/clinicaltrial");
+    }
     return (
         <section className="upper">
 
             <div>
                 <div>
                     <h1>WHO resolution on clinical trials</h1>
-                    <a href="/clinicaltrial">Your Clinical Trial</a>
+                    {/* <a href="/clinicaltrial">Your Clinical Trial</a> */}
+                    <p onClick={DirectToClinicalTrial} >Your Clinical Trial</p>
                 </div>
                 <img src="https://img.freepik.com/free-vector/hand-drawn-national-doctor-s-day-illustration-with-medics-essentials_23-2149447532.jpg?size=626&ext=jpg" alt="" />
             </div>
