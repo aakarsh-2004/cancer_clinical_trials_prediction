@@ -17,18 +17,26 @@
 }
 
 .upper>div:first-child{
+    border-bottom: 1px solid grey;
+    padding: 1.5rem;
+    padding-top: 4rem;
     width: 100%;
-    /* height: calc(100vh - 4rem); */
-    height: 85vh;
-    /* background: url("../../assets/lab.jpg") no-repeat center center/cover; */
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
+.upper>div:first-child>div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}
+
 .upper>div:first-child div h1{
     text-align: center;
-    font-size: 3.5rem;
+    font-size: 40px;
     text-transform: capitalize;
     /* position: relative; */
     /* top: 2rem; */
@@ -37,18 +45,28 @@
     /* color: white; */
 }
 
+.upper > div:first-child > div > p {
+    border: 1px solid black;
+    padding: 0.6rem 2rem;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: 500;
+}
+
+.upper > div:first-child > div > p:hover,
+.upper > div:first-child > div > p:focus{
+    background-color: black;
+    color: white;
+    /* box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, 0.5); */
+}
+
+.upper > div:first-child > div > p:active{
+    transform: scale(0.98);
+}
+
 .upper > div > img {
     height: 500px;
     width: 700px;
-}
-
-.upper > div > div > a {
-    border: 1px solid black;
-    padding: 5px;
-    border-radius: 5px;
-    margin-left: 320px;
-    margin-top: 50px;
-    font-size: 1.2rem;
 }
 
 .upper>h2{
